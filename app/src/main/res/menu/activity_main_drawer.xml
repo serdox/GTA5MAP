@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ammunation"
+            android:icon="@drawable/ammunation"
+            android:title="Ammunation" />
+        <item
+            android:id="@+id/atm"
+            android:icon="@drawable/atm"
+            android:title="ATM/Fast-Cash" />
+        <item
+            android:id="@+id/barber"
+            android:icon="@drawable/barber"
+            android:title="Barber Shop" />
+        <item
+            android:id="@+id/carwash"
+            android:icon="@drawable/carwash"
+            android:title="Car Wash" />
+        <item
+            android:id="@+id/cinema"
+            android:icon="@drawable/cinema"
+            android:title="Cinema" />
+        <item
+            android:id="@+id/clothing"
+            android:icon="@drawable/clothing"
+            android:title="Clothing" />
+        <item
+            android:id="@+id/conveniencestore"
+            android:icon="@drawable/conveniencestore"
+            android:title="Convenience Store" />
+        <item
+            android:id="@+id/darts"
+            android:icon="@drawable/darts"
+            android:title="Darts" />
+        <item
+            android:id="@+id/epsilontract"
+            android:icon="@drawable/epsilontract"
+            android:title="Epsilon Tract" />
+        <item
+            android:id="@+id/firestation"
+            android:icon="@drawable/firestation"
+            android:title="Fire Station" />
+        <item
+            android:id="@+id/flightschool"
+            android:icon="@drawable/flightschool"
+            android:title="Flight School" />
+        <item
+            android:id="@+id/foodanddrinks"
+            android:icon="@drawable/foodanddrinks"
+            android:title="Food and Drinks" />
+        <item
+            android:id="@+id/golf"
+            android:icon="@drawable/golf"
+            android:title="Golf" />
+        <item
+            android:id="@+id/helipad"
+            android:icon="@drawable/helipad"
+            android:title="Helipad" />
+        <item
+            android:id="@+id/hunting"
+            android:icon="@drawable/hunting"
+            android:title="Hunting" />
+        <item
+            android:id="@+id/knifeflight"
+            android:icon="@drawable/knifeflight"
+            android:title="Knife Flight" />
+        <item
+            android:id="@+id/letterscrap"
+            android:icon="@drawable/letterscrap"
+            android:title="Letterscrap" />
+        <item
+            android:id="@+id/lscustoms"
+            android:icon="@drawable/lscustoms"
+            android:title="Los Santos Customs" />
+        <item
+            android:id="@+id/nuclearwaste"
+            android:icon="@drawable/nuclearwaste"
+            android:title="Nuclear Waste" />
+        <item
+            android:id="@+id/parachuting"
+            android:icon="@drawable/parachuting"
+            android:title="Parachuting" />
+        <item
+            android:id="@+id/race"
+            android:icon="@drawable/race"
+            android:title="Race" />
+        <item
+            android:id="@+id/shootingrange"
+            android:icon="@drawable/shootingrange"
+            android:title="Shooting Range" />
+        <item
+            android:id="@+id/spaceshippart"
+            android:icon="@drawable/spaceshippart"
+            android:title="Spaceship Part" />
+        <item
+            android:id="@+id/strangersandfreaks"
+            android:icon="@drawable/strangersandfreaks"
+            android:title="Strangers and Freaks" />
+        <item
+            android:id="@+id/stripclub"
+            android:icon="@drawable/stripclub"
+            android:title="Stripclub" />
+        <item
+            android:id="@+id/stuntlocation"
+            android:icon="@drawable/stuntlocation"
+            android:title="Stunt Location" />
+        <item
+            android:id="@+id/submarineparts"
+            android:icon="@drawable/submarineparts"
+            android:title="Submarine Parts" />
+        <item
+            android:id="@+id/tattoo"
+            android:icon="@drawable/tattoo"
+            android:title="Tattoo Parlor" />
+        <item
+            android:id="@+id/tennis"
+            android:icon="@drawable/tennis"
+            android:title="Tennis" />
+        <item
+            android:id="@+id/triathlon"
+            android:icon="@drawable/triathlon"
+            android:title="Triathlon" />
+        <item
+            android:id="@+id/underthebridge"
+            android:icon="@drawable/underthebridge"
+            android:title="Under the Bridge" />
+        <item
+            android:id="@+id/yoga"
+            android:icon="@drawable/yoga"
+            android:title="Yoga" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

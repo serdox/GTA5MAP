@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GTA 5 MAP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-7067799512738690</string>
+
+</resources>

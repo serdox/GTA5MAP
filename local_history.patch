@@ -1,0 +1,38 @@
+Index: app/src/main/java/com/gta5multiplayer/gta5map/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/gta5multiplayer/gta5map/MainActivity.java	(revision )
++++ app/src/main/java/com/gta5multiplayer/gta5map/MainActivity.java	(revision )
+@@ -12,17 +12,11 @@
+ import android.view.MenuItem;
+ import android.webkit.WebSettings;
+ import android.webkit.WebView;
+-
+-import com.google.android.gms.ads.AdRequest;
+-import com.google.android.gms.ads.AdView;
+-import com.google.android.gms.ads.MobileAds;
+ import com.google.firebase.analytics.FirebaseAnalytics;
+ 
+ public class MainActivity extends AppCompatActivity
+         implements NavigationView.OnNavigationItemSelectedListener {
+-    private static final String TAG = "MainActivity";
+     private FirebaseAnalytics mFirebaseAnalytics;
+-    private AdView mAdView;
+ 
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+@@ -42,11 +36,8 @@
+         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+         navigationView.setNavigationItemSelectedListener(this);
+         navigationView.setItemIconTintList(null);
++        // Obtain the FirebaseAnalytics instance.
+         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-3940256099942544~3347511713");
+-        AdView mAdView = (AdView) findViewById(R.id.adView);
+-        AdRequest adRequest = new AdRequest.Builder().build();
+-        mAdView.loadAd(adRequest);
+     }
+ 
+     @Override

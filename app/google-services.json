@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "486505170195",
+    "firebase_url": "https://gta-5-map-c9425.firebaseio.com",
+    "project_id": "gta-5-map-c9425",
+    "storage_bucket": "gta-5-map-c9425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486505170195:android:cf6bd6423415cc4f",
+        "android_client_info": {
+          "package_name": "com.gta5multiplayer.gta5map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486505170195-ou148ggkq1scjk5f6m6b65ko7muk4he6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gta5multiplayer.gta5map",
+            "certificate_hash": "37b395291e5ab98b2164486f6c4568e4e42a606f"
+          }
+        },
+        {
+          "client_id": "486505170195-218r5k7uv9ceua7ehpipfv4r48ftadns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmmsjwAkbeg8rD9HaO5KfMzO-F72qQB1Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486505170195-218r5k7uv9ceua7ehpipfv4r48ftadns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
